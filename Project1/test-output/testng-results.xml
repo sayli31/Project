@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="18653" started-at="2020-05-12T06:26:51Z" finished-at="2020-05-12T06:27:10Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="18653" started-at="2020-05-12T06:26:51Z" finished-at="2020-05-12T06:27:10Z">
+      <class name="com.maven.Project1.DashTest">
+        <test-method status="PASS" signature="loginData()[pri:0, instance:com.maven.Project1.DashTest@3943a2be]" name="loginData" duration-ms="5654" started-at="2020-05-12T11:57:04Z" finished-at="2020-05-12T11:57:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginData -->
+      </class> <!-- com.maven.Project1.DashTest -->
+      <class name="com.maven.Project1.AdminTest">
+        <test-method status="PASS" signature="adminTest()[pri:0, instance:com.maven.Project1.AdminTest@343570b7]" name="adminTest" duration-ms="150" started-at="2020-05-12T11:57:09Z" finished-at="2020-05-12T11:57:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminTest -->
+      </class> <!-- com.maven.Project1.AdminTest -->
+      <class name="com.maven.Project1.LoginTest">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:com.maven.Project1.LoginTest@28975c28]" name="initializeDriver" is-config="true" duration-ms="9738" started-at="2020-05-12T11:56:41Z" finished-at="2020-05-12T11:56:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="loginData()[pri:0, instance:com.maven.Project1.LoginTest@28975c28]" name="loginData" duration-ms="12807" started-at="2020-05-12T11:56:51Z" finished-at="2020-05-12T11:57:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginData -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.maven.Project1.LoginTest@28975c28]" name="closeDriver" is-config="true" duration-ms="360" started-at="2020-05-12T11:57:10Z" finished-at="2020-05-12T11:57:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.maven.Project1.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
